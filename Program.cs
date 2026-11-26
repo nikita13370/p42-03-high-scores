@@ -19,7 +19,6 @@ foreach (Student s in group)
 
 return count;
 
-        return 0;
     }
 
     // Верните НОВЫЙ массив только из студентов с высоким баллом (правило то же, что в CountHigh),
@@ -45,7 +44,7 @@ foreach (Student s in group)
 
 return result;
 
-        return new Student[0];
+
     }
 
     static void Main()
